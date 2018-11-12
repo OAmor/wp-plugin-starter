@@ -10,6 +10,10 @@ Author URI: http://URI_Of_The_Plugin_Author
 License: A "Slug" license name e.g. GPL2
 */
 
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 class plugin_starter{
     public function __construct(){
         include_once plugin_dir_path(__FILE__).'inc/pageScripts.php';
